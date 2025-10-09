@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 class MultiCommunityRedditScraper:
     def __init__(self, client_id, client_secret, user_agent):
         """
-        Initialize Reddit scraper for multi-community analysis
+        Initialize Reddit  scraper for multi-community analysis
         """
         self.reddit = praw.Reddit(
             client_id=client_id,
